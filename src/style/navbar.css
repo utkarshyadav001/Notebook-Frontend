@@ -1,0 +1,70 @@
+#navabr{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+}
+
+#appLogo{
+    margin-left: 4px;
+}
+
+#appLogo h3{
+    margin-left: 4px;
+    /* font-style: italic; */
+    font-weight: normal;
+    color: rgb(0 247 66);
+    padding: 0px 7px;
+    border: 2px solid rgb(0, 247, 66);
+    border-radius: 3px;
+}
+
+#appLogo h3:hover{
+    cursor: pointer;
+}
+
+#navPageBtn{
+    display: inline-block;
+}
+
+#navPageBtn ul{
+    display: inline-block;
+    margin-left: 130px;
+}
+
+#navPageBtn ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+#navPageBtn ul li a{
+    padding: 1px 3px;
+    margin: 0px 5px;
+    text-decoration: none;
+    /* border: 2px solid rgb(0, 247, 66);
+    border-radius: 5px; */
+    color: white;
+}
+
+#navPageBtn ul li a:hover{
+    color: rgb(0, 247, 66);
+    border-bottom: 2px solid rgb(0, 247, 66);
+    /* border-radius: 5px; */
+}
+
+#loginBtn{
+    position: absolute;
+    right: 5px;
+}
+#loginBtn button{
+    padding: 3px 6px;
+    margin: 0px 3px;
+    background-color: rgb(0, 247, 66);
+    border: 2px solid rgb(243, 3, 43);
+    border-radius: 5px;
+    color: red;
+    font-size: 17px;
+}
