@@ -12,7 +12,7 @@ function App() {
     <Router>
 
       <Navbar/>
-      <h1>Utkarsh Yadav</h1>
+      {/* <h1>Utkarsh Yadav</h1> */}
 
       <Routes>
         <Route exact  path="/"  element={<Main/>} />

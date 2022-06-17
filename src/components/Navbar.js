@@ -1,8 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import '../style/navbar.css'
 
+
 const Navbar = () => {
+  const location = useLocation()
+  // console.log(location)
   return (
     <header>
       {/* <h1>This is a best Navbar</h1> */}
@@ -13,8 +16,8 @@ const Navbar = () => {
 
           <div id="navPageBtn">
               <ul>
-                  <li><Link to="/">Home</Link></li>
-                  <li><Link to="/about">About</Link></li>
+                  <li><Link to="/" className={location.pathname=== '/'? 'active': ''}>Home</Link></li>
+                  <li><Link to="/about" className={location.pathname=== '/about'? 'active': ''}>About</Link></li>
               </ul>
           </div>
 

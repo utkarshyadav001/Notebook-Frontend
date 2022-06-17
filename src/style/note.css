@@ -1,0 +1,12 @@
+#note{
+    width: 70%;
+    margin: auto;
+}
+#note h1{
+    /* line-height: 52px; */
+    margin: 12px 0px 5px 9px;
+}
+#noteItemContainer{
+    display: flex;
+    flex-flow: row wrap;
+}

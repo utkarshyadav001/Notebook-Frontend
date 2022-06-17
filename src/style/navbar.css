@@ -41,17 +41,21 @@
 }
 
 #navPageBtn ul li a{
-    padding: 1px 3px;
+    padding: 3px 6px;
     margin: 0px 5px;
     text-decoration: none;
-    /* border: 2px solid rgb(0, 247, 66);
-    border-radius: 5px; */
     color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.active{
+    color: rgb(0, 247, 66) !important;
+    border: 2px solid rgb(0, 247, 66) !important; 
 }
 
 #navPageBtn ul li a:hover{
     color: rgb(0, 247, 66);
-    border-bottom: 2px solid rgb(0, 247, 66);
+    /* border-bottom: 2px solid rgb(0, 247, 66); */
     /* border-radius: 5px; */
 }
 
