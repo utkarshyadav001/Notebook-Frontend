@@ -1,27 +1,27 @@
-#addNoteBox{
-    width: 70%;
+#editNoteBox{
+    /* display: fixed; */
+    width: 200%;
     background-color: aliceblue;
-    margin: 5px auto;
     border: 2px solid red;
     border-radius: 5px;
-    padding: 20px 0px 20px 28px;
+    padding: 10px 0px 10px 14px; 
 }
 
-#addNoteBox h2{
+#eaddNoteBox h2{
     line-height: 60px;
 }
 
-#addNoteFrom{
+#eaddNoteFrom{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.fromElement{
+.efromElement{
     padding: 3px 8px;
 }
 
-.fromElement input{
+.efromElement input{
     padding: 1px 3px;
     display: block;
     font-size: 17px;
@@ -34,20 +34,27 @@
     right: 700px; */
     height: 45px;
 }
-#description{
+#edescription{
     height: 123px;
 }
 
-.fromElement label{
+.efromElement label{
     font-size: 17px;
 }
 
-.fromBtn{
+.efromBtn{
     padding-top: 10px;
     margin-left: 5px;
 }
-.fromBtn button{
+.efromBtn button{
     font-size: 16px;
     padding: 2px 8px;
     margin: 2px 5px;
+}
+
+#editformclosebtn{
+    display: inline-block;
+    font-size: 16px;
+    padding: 2px 37px;
+    margin: 5px 0px 5px 12px;
 }

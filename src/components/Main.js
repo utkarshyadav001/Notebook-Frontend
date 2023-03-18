@@ -4,12 +4,12 @@ import Addnote from './Addnote'
 import Note from './Note'
 
 
-const Main = () => {
+const Main = (props) => {
+  const {displayAlert} = props;
   return (
     <>
-    {/* <h1>This is Main page</h1> */}
-    <Addnote/>
-    <Note/>
+    <Addnote displayAlert={displayAlert} />
+    <Note />
     </>
   )
 }

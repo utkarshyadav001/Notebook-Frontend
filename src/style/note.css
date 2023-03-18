@@ -2,6 +2,11 @@
     width: 70%;
     margin: auto;
 }
+#updateNoteBox{
+    position: fixed;
+    left: 450px;
+    top: 12px;
+}
 #note h1{
     /* line-height: 52px; */
     margin: 12px 0px 5px 9px;
@@ -9,4 +14,10 @@
 #noteItemContainer{
     display: flex;
     flex-flow: row wrap;
+}
+#noteItemContainer> h3{
+    width: 100%;
+    color: red;
+    text-align: center;
+    padding: 12px 0px;
 }

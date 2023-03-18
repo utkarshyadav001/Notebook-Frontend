@@ -1,9 +1,9 @@
 #noteitem{
-    width: 100%;
+    width: 95%;
     /* height: 251px; */
     border: 2px solid rgb(211, 116, 116);
     border-radius: 5px;
-    margin: 2px 6px;
+    margin: 2px auto;
     padding: 5px 8px;    
 }
 #noteitem h3{

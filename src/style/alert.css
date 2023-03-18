@@ -1,0 +1,15 @@
+#alertBox{
+    width:100%;
+    display: block;
+    position: absolute;
+    background-color: rgb(226, 233, 243);
+    text-align: center;
+}
+#alertBox p, #alertBox strong{
+    font-size: 16px;
+    margin: 5px 0px;
+    display: inline-block;
+}
+#alertBox p{
+    padding-left: 12px;
+}
